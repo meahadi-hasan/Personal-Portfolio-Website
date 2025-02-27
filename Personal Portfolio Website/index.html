@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/Favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Meahadi's Portfolio</title>
+</head>
+<body>
+    <!-- Scroll Button -->
+    <div class="scroll-btn" id="scroll-btn">
+    <i class="fas fa-chevron-up" id="scroll-up"></i>
+    <i class="fas fa-chevron-down" id="scroll-down"></i>
+    </div>
+    <header>
+        <h1><a href="#home" class="logo">Meahadi Hasan</a></h1>
+<div class="menu-icon" id="menu-icon">
+    <i class="fas fa-bars" id="menu-icon-bars"></i>
+    <i class="fas fa-times" id="menu-icon-times"></i>
+</div>
+<nav class="nav-links" id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact-section">Contact Me</a>
+</nav>
+    </header>
+    
+
+    <!-- Home section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Assalamu alaikum! everyone, I'm Meahadi <span>&#128075;</span></h1>
+            <p>A passionate web developer using JavaScript, React.js, and Node.js to create dynamic, 
+                user-friendly websites. Focuses on delivering fast, scalable, and visually appealing solutions, 
+                eager to learn and collaborate.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/md-meahadi-hasan" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/meahadi-hasan" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/meahadi_hasan10" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://web.facebook.com/me.meahadihasan" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            <div class="buttons">
+                <a href="#contact-section">Contact Me</a>
+                <a href="Md. Meahadi Hasan_Resume.pdf">See My Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/Home Profile Pic.png" alt="Developer Images">
+        </div>
+    </section>
+
+    <!-- Service Section -->
+<section id="services" class="services-section">
+    <div class="container"><br>
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, React.js, and Node.js. Experienced in building responsive and dynamic web applications.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Skilled in creating user-friendly and visually appealing designs using tools like Figma and Adobe XD.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Experience with MongoDB, MySQL, and Firebase for efficient data storage and retrieval.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Skill Section -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">Here are some of the technologies I work with:</p>
+
+        <div class="skills-grid">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Frontend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/html-5.png" alt="HTML">
+                        <span>HTML5</span>
+                        <div class="progress-bar"><div style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/css3.png" alt="CSS">
+                        <span>CSS3</span>
+                        <div class="progress-bar"><div style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/javascript.png" alt="JavaScript">
+                        <span>JavaScript</span>
+                        <div class="progress-bar"><div style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/react-native.png" alt="React.js">
+                        <span>React.js</span>
+                        <div class="progress-bar"><div style="width: 80%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/nodejs.png" alt="Node.js">
+                        <span>Node.js</span>
+                        <div class="progress-bar"><div style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/express.png" alt="Express.js">
+                        <span>Express.js</span>
+                        <div class="progress-bar"><div style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/mongodb.png" alt="MongoDB">
+                        <span>MongoDB</span>
+                        <div class="progress-bar"><div style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/mysql.png" alt="MySQL">
+                        <span>MySQL</span>
+                        <div class="progress-bar"><div style="width: 80%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/git.png" alt="Git">
+                        <span>Git</span>
+                        <div class="progress-bar"><div style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/github.png" alt="GitHub">
+                        <span>GitHub</span>
+                        <div class="progress-bar"><div style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="VS Code">
+                        <span>VsCode</span>
+                        <div class="progress-bar"><div style="width: 70%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <br>
+            <h2>My Projects</h2>
+            <br>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="Images/Java Swing BMI Calculator Project-1.png" alt="Java Swing BMI Calculator">
+                    <h3>BMI Calculator using Java Swing</h3><br>
+                    <p>Welcome to the BMI Calculator, a user-friendly application developed using Java Swing.
+                        This project is designed to calculate a person's Body Mass Index (BMI) based on their height and weight, 
+                        providing instant feedback with categorized health indicators.</p>
+                    <div class="project-links">
+                        <a href="https://meahadi-bmi-calculator.netlify.app" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/BMI-Calculator" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="Images/Digital-Banking-System-Project-2.png" alt="Digital Banking System">
+                    <h3>PUB Bank - Digital Banking System</h3>
+                    <p>The digital banking application offers a user-friendly platform for managing finances, 
+                        allowing users to view card details, check balances, and make secure deposits. 
+                        It also features a transaction history for clear financial activity tracking, 
+                        ensuring a user-friendly experience while maintaining security and transparency.</p>
+                    <div class="project-links">
+                        <a href="https://meahadi-hasan.github.io/Digital-Banking-System" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/Digital-Banking-System" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <img src="Images/Calculator Project-3.png" alt="Calculator">
+                    <h3>Calculator</h3><br>
+                    <p>This calculator, built using HTML, CSS, and JavaScript, provides a user-friendly 
+                        experience for performing mathematical operations. It supports basic arithmetic functions 
+                        like addition, subtraction, multiplication, and division, as well as advanced 
+                        features like percentage calculations and factorial computation.</p>
+                    <div class="project-links">
+                        <a href="https://meahadi-hasan.github.io/Calculator" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/Calculator" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project">
+                    <img src="Images/Stopwatch Project-4.png" alt="Stopwatch">
+                    <h3>Stopwatch</h3><br><br>
+                    <p>A simple and interactive stopwatch web application built using HTML, CSS, and JavaScript. 
+                        This project allows users to start, pause, reset the stopwatch, and track lap times.</p>
+                    <div class="project-links">
+                        <a href="https://web-stopwatch-app.netlify.app" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/PRODIGY_WD_02" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project">
+                    <img src="Images/Weather App Project-5.png" alt="Weather App">
+                    <h3>Weather App</h3>
+                    <p>A simple and responsive weather application that fetches real-time weather data based on the user's location or a user-inputted location. Built using HTML, CSS, and JavaScript, this app displays current weather conditions, temperature, humidity, wind speed, and more.</p>
+                    <div class="project-links">
+                        <a href="https://getweb-weather.netlify.app" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/PRODIGY_WD_05" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project">
+                    <img src="Images/Tic-Tac-Toe Project-6.png" alt="Tic-Tac-Toe">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>Welcome to my Tic-Tac-Toe Web Application! This project is a fully functional and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. It allows users to play against each other or against an AI opponent, with a clean and responsive design for both desktop and mobile devices.</p>
+                    <div class="project-links">
+                        <a href="https://playweb-tic-tac-toe.netlify.app" class="btn">Live Demo</a>
+                        <a href="https://github.com/meahadi-hasan/PRODIGY_WD_03" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements-section -->
+    <section id="achievements" class="achievements-section">
+        <br>
+        <h2>Achievements And Certifications 🏆</h2>
+        <div class="achievements-grid">
+            <!-- IBM Certificate -->
+            <div class="achievement-card">
+                <img src="Images/IBM.jpg" alt="IBM Certificate" class="achievement-image">
+                <h3>Introduction to Web Development with HTML, CSS, JavaScript</h3>
+                <br>
+                <p>Alhamdulillah!💚
+                    I'm thrilled to share that I've successfully completed the 
+                    "Introduction to Web Development with HTML, CSS, and JavaScript" course 
+                    offered by IBM through Coursera!</p>
+                <div class="achievement-links">
+                    <a href="https://coursera.org/verify/F0J52VL4ECZW">Certificate Verification</a>
+                </div>
+            </div>
+            <!-- AWS Certificate -->
+            <div class="achievement-card">
+                <img src="Images/AWS.jpg" alt="AWS Certificate" class="achievement-image">
+                <br>
+                <h3>AWS Fundamentals</h3>
+                <br><br>
+                <p>Alhamdulillah!💚
+                    I am thrilled to announce that I have successfully completed the "AWS Fundamentals" Specialization,
+                    authorized by Amazon Web Services (AWS) and offered through Coursera!</p><br><br>
+                <div class="achievement-links">
+                    <a href="https://coursera.org/verify/specialization/JZ0P7WL4V61D">Certificate Verification</a>
+                </div>
+            </div>
+            <!-- Board Infinity Certificate -->
+            <div class="achievement-card">
+                <img src="Images/Board Infinity.jpg" alt="Board Infinity Certificate" class="achievement-image">
+                <h3>.NET FullStack Developer</h3>
+                <p>Alhamdulillah!💚
+                    I'm thrilled to share that I have successfully completed the ".NET FullStack Developer" specialization 
+                    offered by Board Infinity through Coursera. This program has been an incredible journey, 
+                    providing me with in-depth knowledge in building web applications using React and ASP.NET technologies.</p>
+                <div class="achievement-links">
+                    <a href="https://coursera.org/verify/specialization/EDARWP57XYQ8">Certificate Verification</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+<section id="contact-section" class="contact-section">
+    <div class="container"><br>
+        <h2>Contact Me</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" rows="10" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Meahadi Hasan. All rights reserved.</p>
+            <div class="social-media-icons">
+                <a href="https://github.com/meahadi-hasan"><img src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/md-meahadi-hasan"><img src="https://img.icons8.com/ios-glyphs/30/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://x.com/meahadi_hasan10"><img src="https://img.icons8.com/ios-glyphs/30/twitterx.png" alt="Twitter (X)"></a>
+                <a href="https://web.facebook.com/me.meahadihasan"><img src="https://img.icons8.com/ios-glyphs/30/facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
