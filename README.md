@@ -55,9 +55,8 @@ If you have any questions or would like to connect, feel free to reach out to me
 
 Email: meahadihasan.cse.pub@gmail.com
 
-[LinkedIn] : (https://www.linkedin.com/in/md-meahadi-hasan)
+LinkedIn: [Md. Meahadi Hasan](https://www.linkedin.com/in/md-meahadi-hasan)
 
-[GitHub] : (https://github.com/meahadi-hasan)
-
+GitHub: [Meahadi Hasan](https://github.com/meahadi-hasan)
 
 Thank you for visiting my portfolio! 😊
