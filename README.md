@@ -53,14 +53,11 @@ portfolio/
 📞 Contact Me
 If you have any questions or would like to connect, feel free to reach out to me via:
 
-Email: your-email@example.com
+Email: meahadihasan.cse.pub@gmail.com
 
-LinkedIn: Meahadi Hasan
+[LinkedIn] : (https://www.linkedin.com/in/md-meahadi-hasan)
 
-GitHub: meahadi-hasan
+[GitHub] : (https://github.com/meahadi-hasan)
 
-Twitter: @meahadi_hasan10
-
-Facebook: Meahadi Hasan
 
 Thank you for visiting my portfolio! 😊
