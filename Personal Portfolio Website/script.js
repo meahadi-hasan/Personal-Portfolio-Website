@@ -53,17 +53,15 @@ navLinks.addEventListener("click", () => {
 
 
 
-// EmailJS ইনিশিয়ালাইজ
+// EmailJS 
 emailjs.init({
-    publicKey: "bCYVtcD3NxeH_f7wm", // আপনার Public Key দিন
+    publicKey: "bCYVtcD3NxeH_f7wm", 
 });
 
-// ফর্ম সাবমিট হ্যান্ডলার
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const form = e.target;
 
-    // ফর্ম ভ্যালিডেশন
     const requiredFields = ['name', 'email', 'phone', 'subject', 'message'];
     let isFormValid = true;
 
@@ -82,7 +80,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         return;
     }
 
-    // লোডিং স্টেট
     Swal.fire({
         title: 'Sending...',
         allowEscapeKey: false,
@@ -90,7 +87,6 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         didOpen: () => Swal.showLoading(),
     });
 
-    // ইমেইল পাঠান
     emailjs.sendForm('service_hyh728e', 'template_xl4ib4s', form)
         .then((response) => {
             Swal.close();
@@ -101,7 +97,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
                     icon: 'success',
                     confirmButtonText: 'OK',
                 });
-                form.reset(); // ফর্ম রিসেট
+                form.reset();
             }
         })
         .catch((error) => {
@@ -112,4 +108,3 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
             });
         });
 });
-
